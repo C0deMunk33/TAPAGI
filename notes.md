@@ -15,5 +15,10 @@ Needs:
   * motion diffusion
   * motion prediction
   * spatial mapping
-
+* Judge
+  * Reinforcement-based learning
+  * Training set
+    * movies
+    * scentific renders
+    * crafted simulations
 
