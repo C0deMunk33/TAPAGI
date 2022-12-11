@@ -5,6 +5,8 @@ Needs:
   * OpenAI GPT-*
   * Nvidia Megatron-LM
   * Microsoft Turning-NLG
+  * Bloom
+    * https://bigscience.huggingface.co/blog/bloom
 * Text to Speech
   * https://huggingface.co/models?pipeline_tag=text-to-speech&sort=downloads
   * https://www.youtube.com/watch?v=aLBedWj-5CQ
@@ -15,16 +17,25 @@ Needs:
   * motion diffusion
     * https://anuragajay.github.io/decision-diffuser/
   * motion prediction
-    
   * spatial mapping
     * https://twitter.com/LumaLabsAI
+  * dreambooth-style individual-based fine-tuning
+    * identify participants in scenario
+    * when simulating their replies, use this fine-tuned model
+    * further fine tune with every interaction
+    * figure out way to identify similar participants to known participants and make blended models as the starting point
+    * maintain participant-indexed memory
 * Judge
   * Reinforcement-based learning
   * Training set
+    * internet archive
+    * project guttenberglakhglahglka
+    * google books
     * movies
     * scentific renders
     * crafted simulations
     * https://twitter.com/du_yilun/status/1597618021342023680
+  * https://twitter.com/icodeblockchain/status/1599882951923466240
 
 
 
