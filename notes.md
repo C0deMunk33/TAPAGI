@@ -25,8 +25,10 @@ Needs:
     * further fine tune with every interaction
     * figure out way to identify similar participants to known participants and make blended models as the starting point
     * maintain participant-indexed memory
+  * per-entity models: each encountered entity gets a dedicated model fine tuned on interactions with that entity
 * Judge
   * Reinforcement-based learning
+  * The "cringe" circuit: continuously reasses past decisions and outcomes
   * Training set
     * internet archive
     * project guttenberglakhglahglka
