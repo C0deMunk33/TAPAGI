@@ -1,0 +1,1 @@
+Act as a python programmer translating a list of linked objects into the appropriate abstract classes to represent them
