@@ -1,1 +1,28 @@
 Act as a python programmer translating a list of linked objects into the appropriate abstract classes to represent them
+
+#Input Bus
+# Contains:
+# Spatial Data In (balance, proprioception, contact, sound and video ranging, GPS)
+#
+# video frames in
+#  subset of video in is text in both from file and via OCR vision transform
+#
+# Audio in
+#  subset of Audio in is text from speech via Whisper
+
+
+#-
+
+# Scene State
+# Receives pre-processed data objects from Input Bus
+# Contains
+# Spacial simulator accepts input from Spatial Data assemblage 
+
+#  // CLIP or similar image-to-text should be invoked to produce tokens from video along with OCR
+
+# Tokenized Sentiment Assembly accepts input from tokenized image, OCR or text file data 
+
+# Scene State outputs to Scene Simulator
+
+
+
