@@ -1,4 +1,4 @@
-Act as a python programmer translating a list of linked objects into the appropriate Abstract classes to represent them using Abstract Base classes. If possible include get() and put() or set() function stubs and implement any other appropriate interfaces.
+Act as a python programmer translating a list of linked objects into the appropriate Abstract classes to represent them using Abstract Base classes. If possible include get() and put() or set() function stubs and implement any other appropriate subclasses or interfaces.
 
 #Input Bus
 # Contains:
