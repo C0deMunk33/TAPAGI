@@ -24,5 +24,40 @@ Act as a python programmer translating a list of linked objects into the appropr
 
 # Scene State outputs to Scene Simulator
 
+# Scene Simulator
+# accepts input from Scene State 
+# accepts input from Judge
+# outputs to Judge
+# outputs to Output Generator
+
+# Short Term Memory
+# accepts input from entire Output Bus
+# stores input until recall() or forget() functions are called.
+# outputs to Judge and Output Generators
+# can be routed to Scene Simulator input by Judge 
+
+# Judge
+# accepts input from entire Output Bus, Output Generators and Scene Simulator
+# outputs to Output Generator, Scene Simulator, Short Term memory, and Accepted Output
+# // some control over Input Bus ??
+
+# Accepted Out output chosen by Judge and routed to appropriate part of Output Bus
 
 
+# Output Generators
+# NLP model
+# Decision Diffusion
+
+# Output Bus
+# Misc. Out (mechanical drivers, etc.)
+# Text Out
+# Audio Out
+#    Text-to-Speech
+#    Waveforms
+# Video Out -- routed from Scene Simulator via Judge
+# Still Frames
+# Interframe Image-to-Video Transforms
+
+
+# write python code starting after next lines
+from abc import ABC, abstractmethod
