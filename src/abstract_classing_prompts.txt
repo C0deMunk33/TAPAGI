@@ -1,26 +1,24 @@
-Act as a python programmer translating a list of linked objects into the appropriate abstract classes to represent them
+Act as a python programmer translating a list of linked objects into the appropriate Abstract classes to represent them using Abstract Base classes. If possible include get() and put() or set() function stubs and implement any other appropriate interfaces.
 
 #Input Bus
 # Contains:
 # Spatial Data In (balance, proprioception, contact, sound and video ranging, GPS)
-#
+# passes spatial and other sensor data to Scene State
+
 # video frames in
 #  subset of video in is text in both from file and via OCR vision transform
-#
+#  passes data to CLIP Interrogator and video frame pre-processor in Scene State
+
 # Audio in
 #  subset of Audio in is text from speech via Whisper
-
-
-#-
+#  passes data to waveform analyzer and Whisper module speech-to-text in Scene State
 
 # Scene State
 # Receives pre-processed data objects from Input Bus
-# Contains
+# Contains Spacial Simulator and Tokenized Sentiment Assembly
 # Spacial simulator accepts input from Spatial Data assemblage 
-
-#  // CLIP or similar image-to-text should be invoked to produce tokens from video along with OCR
-
 # Tokenized Sentiment Assembly accepts input from tokenized image, OCR or text file data 
+#   CLIP or similar image-to-text should be invoked to produce tokens from video along with OCR
 
 # Scene State outputs to Scene Simulator
 
@@ -43,7 +41,6 @@ Act as a python programmer translating a list of linked objects into the appropr
 
 # Accepted Out output chosen by Judge and routed to appropriate part of Output Bus
 
-
 # Output Generators
 # NLP model
 # Decision Diffusion
@@ -61,3 +58,10 @@ Act as a python programmer translating a list of linked objects into the appropr
 
 # write python code starting after next lines
 from abc import ABC, abstractmethod
+
+Class InputBus:
+   @abstractmethod
+   def getData(self):
+     pass
+   def putData(self):
+     pass
