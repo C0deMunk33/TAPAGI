@@ -1,0 +1,67 @@
+Act as a python programmer translating a list of linked objects into the appropriate Abstract classes to represent them using Abstract Base classes. If possible include get() and put() or set() function stubs and implement any other appropriate subclasses or interfaces.
+
+#Input Bus
+# Contains:
+# Spatial Data In (balance, proprioception, contact, sound and video ranging, GPS)
+# passes spatial and other sensor data to Scene State
+
+# video frames in
+#  subset of video in is text in both from file and via OCR vision transform
+#  passes data to CLIP Interrogator and video frame pre-processor in Scene State
+
+# Audio in
+#  subset of Audio in is text from speech via Whisper
+#  passes data to waveform analyzer and Whisper module speech-to-text in Scene State
+
+# Scene State
+# Receives pre-processed data objects from Input Bus
+# Contains Spacial Simulator and Tokenized Sentiment Assembly
+# Spacial simulator accepts input from Spatial Data assemblage 
+# Tokenized Sentiment Assembly accepts input from tokenized image, OCR or text file data 
+#   CLIP or similar image-to-text should be invoked to produce tokens from video along with OCR
+
+# Scene State outputs to Scene Simulator
+
+# Scene Simulator
+# accepts input from Scene State 
+# accepts input from Judge
+# outputs to Judge
+# outputs to Output Generator
+
+# Short Term Memory
+# accepts input from entire Output Bus
+# stores input until recall() or forget() functions are called.
+# outputs to Judge and Output Generators
+# can be routed to Scene Simulator input by Judge 
+
+# Judge
+# accepts input from entire Output Bus, Output Generators and Scene Simulator
+# outputs to Output Generator, Scene Simulator, Short Term memory, and Accepted Output
+# // some control over Input Bus ??
+
+# Accepted Out output chosen by Judge and routed to appropriate part of Output Bus
+
+# Output Generators
+# NLP model
+# Decision Diffusion
+
+# Output Bus
+# Misc. Out (mechanical drivers, etc.)
+# Text Out
+# Audio Out
+#    Text-to-Speech
+#    Waveforms
+# Video Out -- routed from Scene Simulator via Judge
+# Still Frames
+# Interframe Image-to-Video Transforms
+
+
+# write python code starting after next lines
+from abc import ABC, abstractmethod
+
+Class InputBus:
+   @abstractmethod
+   def getData(self):
+     pass
+   def putData(self):
+     pass
