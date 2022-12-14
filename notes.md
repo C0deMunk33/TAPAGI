@@ -32,12 +32,15 @@ Needs:
   * Training set
     * internet archive
     * project guttenberglakhglahglka
+      * per [The One Guy](https://github.com/TheOneTrueGuy): files in project g have boilerplate intro and legal jargon so those will need to be preprocessed out
     * google books
     * movies
     * scentific renders
     * crafted simulations
     * https://twitter.com/du_yilun/status/1597618021342023680
   * https://twitter.com/icodeblockchain/status/1599882951923466240
+* Output Bus
+  * https://github.com/leggedrobotics/
 
 
 
