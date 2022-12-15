@@ -50,3 +50,17 @@ Misc Notes:
   * https://www.youtube.com/watch?v=hlv79rcHws0 
   * https://github.com/nat/natbot
 * nd-gravity distance?
+* Products
+  * anomoly detection
+  * social media assistant/digital clones
+  * chat bot
+  * reality filter
+  * proactive friend
+    * calls
+    * DMs
+    * using the per-entity simulations to be the best friend/companion possible
+* Logins/user accounts
+  * for any API/product that requires login, make it as low-friction as possible
+  * Metamask
+  * Google login
+  
