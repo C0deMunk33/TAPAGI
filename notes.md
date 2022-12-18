@@ -1,5 +1,7 @@
 
 Needs:
+* Standardized system to system bus
+* Standardized subsystem module bus
 * Text to Text
   * Google T5
   * OpenAI GPT-*
