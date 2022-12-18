@@ -16,6 +16,13 @@ Needs:
   * https://www.youtube.com/watch?v=aLBedWj-5CQ
 * Audio to Text
   * Whisper
+* Short term memory
+  * tensor weights
+  * input 
+  * selected output
+  * was it executed
+  * sentiment of simulation
+  * sentiment of outcome (later with retraining)
 * Scene Simulator
   * image diffusion
   * motion diffusion
@@ -76,6 +83,9 @@ Misc Notes:
   * Google login
 * try storing prototype initial noise per token or token combo
   * when token comes up, use that seed as a starting point? might converge faster, might not work
+* https://twitter.com/Guygies/status/1604528812292968449
+  * "We saw benefits when residual weights were shared between the components of a GAN so it would make sense for internals to share tensors. It could then assemble its own temporary gans & exploit in-context learning to refine tasks" [The One Guy](https://github.com/TheOneTrueGuy)
+  * 
 
 
 
