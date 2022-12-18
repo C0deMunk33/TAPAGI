@@ -1,7 +1,9 @@
 
 Needs:
 * Standardized system to system bus
+  * similar to a transformers pipeline
 * Standardized subsystem module bus
+  * probably a layer over TF
 * Text to Text
   * Google T5
   * OpenAI GPT-*
