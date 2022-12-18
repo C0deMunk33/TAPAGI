@@ -22,7 +22,7 @@ Needs:
   * selected output
   * was it executed
   * sentiment of simulation
-  * sentiment of outcome (later with retraining)
+  * sentiment of outcome (later with retraining, the "cringe" circuit)
 * Scene Simulator
   * image diffusion
   * motion diffusion
