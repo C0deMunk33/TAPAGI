@@ -12,23 +12,30 @@ Needs:
   * https://www.youtube.com/watch?v=aLBedWj-5CQ
 * Audio to Text
   * Whisper
-* IRL Simulator
+* Scene Simulator
   * image diffusion
   * motion diffusion
     * https://anuragajay.github.io/decision-diffuser/
   * motion prediction
   * spatial mapping
     * https://twitter.com/LumaLabsAI
+    * use image diffusion as sprites/textures
+    * depth maps will be good here since all/most images are from a 1st person perspective so the generated depth map will nearly always match the perspective of the user
   * dreambooth-style individual-based fine-tuning
     * identify participants in scenario
     * when simulating their replies, use this fine-tuned model
     * further fine tune with every interaction
     * figure out way to identify similar participants to known participants and make blended models as the starting point
     * maintain participant-indexed memory
-  * per-entity models: each encountered entity gets a dedicated model fine tuned on interactions with that entity
+  * per-entity models/pocket sims
+    * each encountered entity gets a dedicated model fine tuned on interactions with that entity
+    * fine-tuned models
+    * textual inversion?
+    * hypernetworks?
 * Judge
   * Reinforcement-based learning
   * The "cringe" circuit: continuously reasses past decisions and outcomes
+  * Quorum of "trusted" pocket sims/per-entity model
   * Training set
     * internet archive
     * project guttenberglakhglahglka
@@ -63,4 +70,9 @@ Misc Notes:
   * for any API/product that requires login, make it as low-friction as possible
   * Metamask
   * Google login
+* try storing prototype initial noise per token or token combo
+  * when token comes up, use that seed as a starting point? might converge faster, might not work
+
+
+
   
