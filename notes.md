@@ -7,6 +7,8 @@ Needs:
 * Text to Text
   * Google T5
   * OpenAI GPT-*
+  * PaLM
+    * https://github.com/lucidrains/PaLM-rlhf-pytorch
   * Nvidia Megatron-LM
   * Microsoft Turning-NLG
   * Bloom
@@ -45,7 +47,7 @@ Needs:
     * hypernetworks?
 * Judge
   * Reinforcement-based learning
-  * The "cringe" circuit: continuously reasses past decisions and outcomes
+  * The "cringe" circuit: continuously reassess past decisions and outcomes
   * Quorum of "trusted" pocket sims/per-entity model
   * Training set
     * internet archive
@@ -53,7 +55,7 @@ Needs:
       * per [The One Guy](https://github.com/TheOneTrueGuy): files in project g have boilerplate intro and legal jargon so those will need to be preprocessed out
     * google books
     * movies
-    * scentific renders
+    * scientific renders
     * crafted simulations
     * https://twitter.com/du_yilun/status/1597618021342023680
   * https://twitter.com/icodeblockchain/status/1599882951923466240
@@ -69,8 +71,11 @@ Misc Notes:
   * https://github.com/nat/natbot
 * nd-gravity distance?
 * Products
-  * anomoly detection
-  * social media assistant/digital clones
+  * anomaly detection
+  * social media assistant
+  * digital clones
+  * OS overlay for Linux
+  * media consultant
   * chat bot
   * reality filter
   * proactive friend
@@ -85,7 +90,8 @@ Misc Notes:
   * when token comes up, use that seed as a starting point? might converge faster, might not work
 * https://twitter.com/Guygies/status/1604528812292968449
   * "We saw benefits when residual weights were shared between the components of a GAN so it would make sense for internals to share tensors. It could then assemble its own temporary gans & exploit in-context learning to refine tasks" [The One Guy](https://github.com/TheOneTrueGuy)
-  * 
+* D^2NN
+  * https://www.mdpi.com/2076-3417/12/11/5338
 
 
 
